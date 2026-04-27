@@ -2,7 +2,7 @@
 
 **Models Evaluated:**
 * **LLM A:** Gemini 3.1 Pro
-* **LLM B:** ChatGPT 
+* **LLM B:** ChatGPT-5.3
 
 ### Issue 1: Accumulator Width Mismatch (Both LLMs)
 * **Offending Lines:**
