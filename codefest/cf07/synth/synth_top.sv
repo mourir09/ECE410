@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
-`include "interface.sv"
-`include "compute_core.sv"
+// `include "interface.sv"
+// `include "compute_core.sv"
 
 module synth_top (
     input  logic               clk,
