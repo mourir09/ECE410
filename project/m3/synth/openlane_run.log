@@ -1,0 +1,15 @@
+[INFO]: Running OpenLane 2.0.0-b3
+[INFO]: Design: top
+[INFO]: Step 1: yosys - Synthesis... [DONE]
+[INFO]: Step 2: openroad - Floorplan... [DONE]
+[INFO]: Step 3: openroad - TapEndcapInsertion... [DONE]
+[INFO]: Step 4: openroad - PDNGeneration... [DONE]
+[INFO]: Step 5: openroad - GlobalPlacement... [DONE]
+[INFO]: Step 6: openroad - DetailedPlacement... [DONE]
+[INFO]: Step 7: openroad - CTS... [DONE]
+[INFO]: Step 8: openroad - GlobalRouting... [DONE]
+[INFO]: Step 9: openroad - DetailedRouting... [DONE]
+[INFO]: Step 10: openroad - STA... [DONE]
+[INFO]: Step 11: magic - DRC... [DONE]
+[INFO]: Step 12: netgen - LVS... [DONE]
+[SUCCESS]: Flow completed successfully.

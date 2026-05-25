@@ -1,0 +1,5 @@
+M3 Power Estimation Status: FAILED
+
+Attempted to run OpenROAD power estimation on the routed design. However, the step failed to produce an accurate active power profile because a valid SAIF (Switching Activity Interchange Format) file was not successfully captured from the Icarus Verilog co-simulation environment. 
+
+Plan for M4: I will modify the `tb_top.sv` testbench to correctly dump a SAIF file during the matrix multiplication test sequence, and pass that file into the OpenLane 2 configuration so that accurate dynamic power can be reported.

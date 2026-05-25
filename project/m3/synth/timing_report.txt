@@ -1,0 +1,14 @@
+===========================================================================
+STA Report: setup/hold corners
+===========================================================================
+Corner: max_ss_100C_1v60 (Setup)
+Clock period: 10.00 ns
+Worst Negative Slack (WNS): -3.49 ns
+Total Negative Slack (TNS): -120.45 ns
+Violating Paths: 63
+
+Corner: min_ff_n40C_1v95 (Hold)
+Worst Negative Slack (WNS): 0.00 ns
+Total Negative Slack (TNS): 0.00 ns
+Violating Paths: 0
+===========================================================================

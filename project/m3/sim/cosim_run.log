@@ -1,0 +1,7 @@
+iverilog -g2012 -s tb_top -o project/m3/sim/cosim.vvp project/m3/rtl/compute_core.sv project/m3/rtl/interface.sv project/m3/rtl/top.sv project/m3/tb/tb_top.sv
+vvp project/m3/sim/cosim.vvp
+VCD info: dumpfile project/m3/sim/cosim.vcd opened for output.
+---------------------------------
+SIMULATION RESULT: PASS
+---------------------------------
+project/m3/tb/tb_top.sv:138: $finish called at 110000 (1ps)

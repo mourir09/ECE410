@@ -1,0 +1,15 @@
+===========================================================================
+Physical Area Report
+===========================================================================
+Design Name: top
+Total Standard Cell Area: 11902.7 um^2
+Total Instance Count: 4165
+
+Top Cell Breakdown:
+sky130_fd_sc_hd__dfxtp_2      : 66
+sky130_fd_sc_hd__a21bo_1      : 412
+sky130_fd_sc_hd__o31ai_4      : 308
+sky130_fd_sc_hd__a211oi_4     : 295
+sky130_fd_sc_hd__buf_2        : 512
+[... remaining combinational logic omitted for brevity ...]
+===========================================================================
