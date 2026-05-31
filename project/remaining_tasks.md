@@ -1,0 +1,5 @@
+# Milestone 4: Remaining Tasks
+
+1. **Resolve Physical Antenna Violations:** Analyze the OpenROAD routing reports from the M3 synthesis run to identify the specific net causing the single antenna violation. Update the OpenLane `config.json` to enforce a stricter diode insertion strategy (e.g., `"DIODE_INSERTION_STRATEGY": 3`) to prevent manufacturing damage.
+2. **Update Host C Driver for Pipeline Latency:** Modify the host processor C code to account for the new 3-cycle hardware latency introduced by the `compute_core.sv` pipeline registers. Ensure the software driver does not attempt to read the result before the AXI `tvalid` output handshake officially completes.
+3. **Optimize 32-bit Accumulator Logic:** While timing is currently closed at 100 MHz, if further timing margin is needed during final physical layout, replace the standard behavioral 32-bit adder in the final pipeline stage with a dedicated Carry-Save Adder (CSA) or Carry-Lookahead Adder (CLA) to further reduce the critical path delay.
